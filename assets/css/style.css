@@ -1,0 +1,47 @@
+.navbar {
+  justify-content: center;
+}
+
+.box {
+  height: 50vmin;
+  width: 50vmin;
+  background-color: red;
+}
+
+.is-three-fifths {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#border-radius-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.input {
+  width: 30vw;
+  left: 2vw;
+}
+
+.width-height {
+  width: 5vw !important;
+}
+
+#custom-size {
+  position: relative;
+  top: 3vh;
+  right: 1.5vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#advanced-settings {
+  width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

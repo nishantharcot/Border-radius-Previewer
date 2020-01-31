@@ -1,14 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="./assets/js/app.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>
-      Border raius previewer
+      Border Radius Previewer by Nishanth Arcot
     </title>
   </head>
   <body>
-    
+    <nav class="navbar is-fixed-top has-background-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-item is-size-3 has-text-danger">
+        BORDER-RADIUS-PREVIEWER
+      </div>
+    </nav>
+    <section class="hero is-dark is-fullheight">
+      <div class="hero-body columns">
+        <div class="column is-one-fifth">
+
+        </div>
+        <div class="container column is-three-fifths">
+          <div class="box">
+            
+          </div>
+          <div id="settings">
+            <div id="border-radius-display">
+              <div class="is-size-5">
+                border-radius: 
+              </div>
+              <input class="input" readonly type="text" placeholder="" value="">
+              <button class="button is-danger">
+                COPY
+              </button>
+            </div>
+            <div id="custom-size">
+              <div class="is-size-5">
+                Custom-size: 
+              </div>
+              <div id="advanced-settings">
+                <div class="is-size-5">
+                  Width:
+                  <input class="input width-height" type="text" placeholder="" value="">
+                </div>
+                <div class="is-size-5">
+                  Height:
+                  <input class="input width-height" type="text" placeholder="" value="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column is-one-fifth">
+
+        </div>
+      </div>
+    </section>
   </body>
 </html>
